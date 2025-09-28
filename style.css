@@ -5,13 +5,13 @@ body {
     height: 100%;
 
     font-family: 'Poppins', Arial, sans-serif;
-    background: #FDEBD0;
-    color: black;
+    background: #FFF5F7;
+    color: #333333;
 }
 
 .layout {
     display: flex;
-    min-height: 100wh;
+    min-height: 100vh;
     flex-direction: column;
 }
 
@@ -20,42 +20,55 @@ body {
 }
 
 .profile h1 {
-    margin-top: 90px;
-    font-size: 40px;
+    margin-top: 30px;
+    font-size: 35px;
+    color: #555555;
 }
 
 .profile img{
-    width: 200px;
+    width: 180px;
     border-radius: 50%;
-    margin-top: 10px;
-    box-shadow: 0 10px 15px rgb(235, 142, 159);
+    margin-top: 5px;
+    box-shadow: 0 10px 15px rgba(255, 200, 221, 0.8);
 }
 
 table {
-    margin: 90px auto;
+    margin: 80px auto;
     border-collapse: collapse;
-    background-color: #F75270;
-    border-radius: 10px;
+    background-color: #FFF1E6;
+    border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
 }
 
 th, td {
-    padding: 10px;
-    background-color: rgb(215, 140, 192);
+    padding: 12px 20px;
+    background-color: #FDE2E4;
 }
 
 th {
-    background-color: cornsilk;
+    background-color: #FFC8DD;
+    color: #333;
+    padding: 12px 20px;
+    font-weight: bold;
 }
 
 .socmed img {
     width: 35px;
-    margin-top: 20px;
+    margin-top: 45px;
+    margin-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    transition: transform 0.2s ease;
+}
+
+.socmed img:hover {
+    transform: scale(1.2);
 }
 
 footer {
-    background-color: #DC143C;
-
+    background-color: #FFAFCC;
+    color: #333;
+    padding: 0px 0;
+    font-size: 14px;
 }
